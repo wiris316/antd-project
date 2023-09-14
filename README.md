@@ -17,12 +17,12 @@ Card-Based Event Page using Ant Design and Ant Design Pro
  |			├── PopupModal.tsx
  |	├── pages
  |		├── AdditionalInfo
- |     ├── index.tsx
+ |			├── index.tsx
  |		├── Home
- |     ├── index.less
- |     ├── index.tsx
+ |			├── index.less
+ |			├── index.tsx
  |		├── utils
- |     ├── Store.tsx
+ |       ├── Store.tsx
 ```
 
 
