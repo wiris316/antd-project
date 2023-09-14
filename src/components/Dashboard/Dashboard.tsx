@@ -43,7 +43,7 @@ const Dashboard = () => {
           <div style={{ overflow:"hidden", display:"flex",alignItems:"center" }} >
           <img
             alt="example"
-            style={{ height: "30vh", margin:"auto"}}
+            style={{ height: "40vh", margin:"auto"}}
             src={imageArr[i]}
             onError={handleImageError}
           />
