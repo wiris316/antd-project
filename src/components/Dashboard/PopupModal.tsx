@@ -39,7 +39,7 @@ const PopupModal = (Props) => {
 
   return (
     <>
-      <Modal title="EVENT INFO" open={popup} onOk={handleOk} onCancel={handleCancel}>
+      <Modal title="EVENT INFO" open={popup} onOk={handleOk} onCancel={handleCancel} okText="Register for Event">
         <p>TITLE: {title}</p>
         <p>DATE: {date}</p>
         <p>LOCATION: {location}</p>

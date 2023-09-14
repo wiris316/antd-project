@@ -1,4 +1,59 @@
+@card-bg-color: rgba(180, 202, 180, 0.401);
+// @dark-green: #1c4d0d9c;
+
+h1 {
+  text-align: center;
+}
+
 .title {
   margin: 0 auto;
   font-weight: 200;
 }
+
+.event-card{
+  margin: 1vh;
+  border-color: @card-bg-color;
+  border-radius: 25px;
+  border-width: 10px;
+  position:relative;
+  height: max-content;
+  background-color: white;
+  
+  .ant-card-head {
+    margin: 0px;
+    // height: 20px;
+    display: contents;
+    align-items: center;
+  }
+  
+  .ant-card-head-title{
+    color: rgb(244, 241, 241);
+    font-size: 20px;
+    text-align: center;
+    background-color: transparent;
+    position:absolute;
+    background-color: rgba(12, 18, 23, 0.278);
+    border-radius: 15px;
+    top: 0px;
+    width: 100%;
+    z-index:1
+
+    
+  }
+  
+  p{
+    font-size: 16px;
+    margin: 0px;
+    text-align: center;
+  }
+  .event-card-img-container {
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  .event-card-img {
+    margin-top: -px;
+  }
+
+}
+
