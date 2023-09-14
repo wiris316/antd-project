@@ -1,27 +1,29 @@
 # README
 
-## Project Overview: Card-Based Event Page using Ant Design and Ant Design Pro
+## Project Overview: 
+Card-Based Event Page using Ant Design and Ant Design Pro
 
 ### File Structure
-
-├── mock
-|	├── eventAPI.ts
-├── src
-|	├── assets
-|    ├── Dashboard.less
-|	├── components
-|		├── Dashboard
-|			├── Dashboard.tsx
-|			├── index.ts
-|			├── PopupModal.tsx
-|	├── pages
-|		├── AdditionalInfo
-|     ├── index.tsx
-|		├── Home
-|     ├── index.less
-|     ├── index.tsx
-|		├── utils
-|     ├── Store.tsx
+```bash
+ ├── mock
+ |	├── eventAPI.ts
+ ├── src
+ |	├── assets
+ |    ├── Dashboard.less
+ |	├── components
+ |		├── Dashboard
+ |			├── Dashboard.tsx
+ |			├── index.ts
+ |			├── PopupModal.tsx
+ |	├── pages
+ |		├── AdditionalInfo
+ |     ├── index.tsx
+ |		├── Home
+ |     ├── index.less
+ |     ├── index.tsx
+ |		├── utils
+ |     ├── Store.tsx
+```
 
 
 ## Getting Started
