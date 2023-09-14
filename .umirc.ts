@@ -20,9 +20,9 @@ export default defineConfig({
       component: './Home',
     },
     {
-      name: 'Access',
-      path: '/access',
-      component: './Access',
+      name: 'Additional Info',
+      path: '/AdditionalInfo',
+      component: './AdditionalInfo',
     },
 
   ],
