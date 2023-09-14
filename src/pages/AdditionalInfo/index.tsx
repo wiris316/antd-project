@@ -1,11 +1,3 @@
-import Dashboard from '@/components/Dashboard';
-import { PageContainer } from '@ant-design/pro-components';
-import styles from './index.less';
-import StoreProvider from '@/utils/Store';
-import { ConfigProvider } from 'antd';
-import enUS from 'antd/locale/en_US';
-
-
 const AdditionalInfo: React.FC = () => {
   return (
     <>

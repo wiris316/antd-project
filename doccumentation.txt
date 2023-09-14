@@ -1,0 +1,10 @@
+Overview: 
+Project was created using create-umi with Ants Design Pro template (providing plugins and ready to use features). The homepage brings users to the Dashboard where event cards are rendered and can be interacted with. Upon clicking the event cards, a modal pops up to display more information regarding event. Navigation bar on the left allows users to navigate between the Dashboard (home) or Additional Info page.
+
+Things I would do differently or attempt to improve on if given more time: 
+- Change and update file structure. 
+- Clean up unused modules and plugins from the template to reduce application size.
+- Place fetch requests logic together with mock data instead of in different files.
+- Use only one http request library. Umi request did not work to fetch image URLs from provided link and axios was used. 
+- Style cards and overall application. 
+- Work on extended features such as filtering and adding testing coverage.

@@ -2,7 +2,7 @@ import { Layout, Card, Col, Row, Button, Modal} from 'antd';
 import React, { useContext, useState } from 'react';
 import { StoreContext } from '../../utils/Store';
 import PopupModal from './PopupModal';
-import './Dashboard.less';
+import '../../assets/Dashboard.less';
 
 
 /** 
@@ -42,23 +42,23 @@ const Dashboard = () => {
         cover={
           <div style={{ overflow:"hidden", display:"flex",alignItems:"center" }} >
           <img
-            alt="example"
+            alt="event-cover-image"
             style={{ height: "40vh", margin:"auto"}}
             src={imageArr[i]}
             onError={handleImageError}
           />
         </div>
       }>
-      <p>DATE: {ele.date}</p>
-      <p>LOCATION: {ele.location}</p>
-    </Card>
-    )
-  }
+        <p>DATE: {ele.date}</p>
+        <p>LOCATION: {ele.location}</p>
+      </Card>
+      )
+    }
   )
   
   return (
     <Layout>
-      <h1>ALL EVENTS HERE</h1>
+      <h1>UPCOMING EVENTS</h1>
       <Row
         style={{ display: "flex", justifyContent:"center" }}>
         {eachEvent}
