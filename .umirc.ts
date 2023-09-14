@@ -7,7 +7,7 @@ export default defineConfig({
   initialState: {},
   request: {},
   layout: {
-    title: '@umijs/max',
+    title: 'EVENTS PAGE',
   },
   routes: [
     {
@@ -15,12 +15,12 @@ export default defineConfig({
       redirect: '/home',
     },
     {
-      name: '首页',
+      name: 'Dashboard',
       path: '/home',
       component: './Home',
     },
     {
-      name: '权限演示',
+      name: 'Access',
       path: '/access',
       component: './Access',
     },
